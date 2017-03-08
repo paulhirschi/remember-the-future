@@ -1,0 +1,18 @@
+
+GET        /                            controllers.HomeController.index
+
+GET        /creation                    controllers.HomeController.creation
+
+GET        /callbacks                   controllers.HomeController.callbacks
+GET        /and-then                    controllers.HomeController.andThen
+
+GET        /firstCompletedOf                       controllers.HomeController.firstCompletedOf
+GET        /find                        controllers.HomeController.find
+GET        /sequence                    controllers.HomeController.sequence
+GET        /traverse                    controllers.HomeController.traverse
+GET        /fold                        controllers.HomeController.fold
+GET        /transform/:id               controllers.HomeController.transform(id: Int)
+GET        /fallback-to                 controllers.HomeController.fallbackTo
+GET        /kitchen-sink/:custId        controllers.HomeController.kitchenSink(custId: Long)
+
+GET        /delay                       controllers.HomeController.delay

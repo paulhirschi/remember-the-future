@@ -1,0 +1,132 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Remember The Future",
+		"_postman_id": "e2084511-915d-355a-a182-94c96ccf759b",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "creation",
+			"request": {
+				"url": "http://localhost:9000/creation",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "callbacks",
+			"request": {
+				"url": "http://localhost:9000/callbacks",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "andThen",
+			"request": {
+				"url": "http://localhost:9000/and-then",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "firstCompletedOf",
+			"request": {
+				"url": "http://localhost:9000/firstCompletedOf",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "find",
+			"request": {
+				"url": "http://localhost:9000/find",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "sequence",
+			"request": {
+				"url": "http://localhost:9000/sequence",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "traverse",
+			"request": {
+				"url": "http://localhost:9000/traverse",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "fold",
+			"request": {
+				"url": "http://localhost:9000/fold",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "transform",
+			"request": {
+				"url": "http://localhost:9000/transform/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "fallbackTo",
+			"request": {
+				"url": "http://localhost:9000/fallback-to",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "kitchenSink",
+			"request": {
+				"url": "http://localhost:9000/kitchen-sink/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
